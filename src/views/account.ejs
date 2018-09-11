@@ -1,4 +1,4 @@
-<%- include('header'); %>
+<%- include('header') %>
 
   <%- include('transactions', {account: account}); %>
   <% if (account.unique_name == 'credit' && account.balance > 0) { %>
